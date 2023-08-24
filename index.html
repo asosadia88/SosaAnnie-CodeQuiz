@@ -12,7 +12,7 @@
     <header>
         <h3>View Highscores</h3>
 
-        <p>Time: <label for="" id="timer">0</label> </p>
+        <p id="timerParagraph">Time: <label for="" id="timer">0</label> </p>
     </header>
 
     <main>
@@ -38,20 +38,20 @@
 
         <section id="initial-section" class="hide">
            <h3>All Done</h3>
-           <p>Your final score is <label for="" id="score">80</label>   </p>   
+           <p>Your final score is <label for="" id="score"></label>   </p>   
         
            Enter Initials: <input type="text" id="initial-input">
            <button id="save-btn">Save</button>
         </section>
         <section id="highscore-section" class="hide">
             <h3>High Scores</h3>
-             <ol>
-                <li>PL-80</li>
+             <ol id="highscore-list">
              </ol>
 
              <button id="go-back-bt">Go Back</button>
              <button id="clear-btn">Clear History</button>
         </section>
+        <span id="answerFeedback"></span>
 
 
     </main>
