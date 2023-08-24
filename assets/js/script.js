@@ -13,9 +13,9 @@ var choicesEl = document.querySelectorAll(".choices")
 var questionIndex = 0
 var questionsArray = [
     {
-        title: "What is the capital of India",
-        choices: ["c1", "c2", "c3", "c4"],
-        answer: "c2"
+        title: "Commonly used data types DO NOT include:",
+        choices: ["Strings", "Booleans", "Alerts", "Numbers"],
+        answer: "Alerts"
     },
     {
         title: "q 2",

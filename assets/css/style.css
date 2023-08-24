@@ -16,14 +16,36 @@ header p {
    justify-content: end; 
 }
 
+
+
 .hide{
     display: none;
 }
 
+
+
 #intro-section, #question-section,#initial-section,#highscore-section{
     text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
  
 #question-section ul{
     list-style: none;
+}
+
+
+#start-btn {
+background-color: blueviolet;
+border-radius: 5px;
+font-size: 30px;
+ color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 10px 20px;
+box-shadow: 4px 4px 4px gray;
+}
+
+#start-btn:hover{
+    background-color: lightpink;
 }
