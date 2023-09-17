@@ -17,12 +17,25 @@ header p {
 }
 
 
-
 .hide{
     display: none;
 }
 
+.choices {
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 30px;
+     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px gray;
 
+}
+
+
+.choices:hover{
+    background-color: lightpink;
+}
 
 #intro-section, #question-section,#initial-section,#highscore-section{
     text-align: center;
@@ -33,6 +46,7 @@ header p {
  
 #question-section ul{
     list-style: none;
+    width: 50%;
 }
 
 
@@ -48,4 +62,10 @@ box-shadow: 4px 4px 4px gray;
 
 #start-btn:hover{
     background-color: lightpink;
+}
+
+#answerFeedback {
+    font-style: italic;
+    font-size: 20px;
+
 }

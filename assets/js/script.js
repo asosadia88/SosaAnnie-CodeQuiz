@@ -14,29 +14,34 @@ var questionIndex = 0
 var questionsArray = [
     {
         title: "Commonly used data types DO NOT include:",
-        choices: ["Strings", "Booleans", "Alerts", "Numbers"],
-        answer: "Alerts"
+        choices: ["A. Strings", "B. Booleans", "C. Alerts", "D. Numbers"],
+        answer: "C. Alerts"
     },
     {
-        title: "q 2",
-        choices: ["c1", "c2", "c3", "c4"],
-        answer: "c1"
-    },
+        title: "The condition in an if / else statement is enclosed with_______?",
+        choices: ["A. Quotes", "B. Parenthesis", "C. Curly Brackets","D. Square Brackets"],
+        answer: "B. Parenthesis"
+    }, 
+    
     {
-        title: "q 3",
-        choices: ["c1", "c2", "c3", "c4"],
-        answer: "c4"
+        title: "Arrays in JavaScript can be used to store _______.",
+        choices: ["A. Numbers and Strings", "B. Other Arrays", "C. Booleans", "D. All of the Above"],
+        answer: "D. All of the Above"
     },
-    {
-        title: "q 4",
-        choices: ["c1", "c2", "c3", "c4"],
-        answer: "c2"
+
+        {
+        title: "String values must be enclosed within _______ when being assigned to variables.",
+        choices: ["A. Commas", "B. Curly Brackets", "C. Quotes", "D. Parenthesis"], 
+        answer: "C. Quotes"
     },
+
+   
     {
-        title: "q 5",
-        choices: ["c1", "c2", "c3", "c4"],
-        answer: "c4"
-    }
+        title: "A very useful tool used during development and debugging for printing content to the debugger is:",
+        choices: ["A. JavaScript", "B Terminal/Bash", "C. For Loops", "D. Console.log"],
+        answer: "D. Console.log"
+    },
+    
 ]
 var resultsArray = [];
 
