@@ -14,7 +14,7 @@ N/A
 
 This site may now be accessed with all its updated features by visiting the hyperlink below: 
 
-<!-- https://asosadia88.github.io/Annielys-Password-Generator/ -->
+https://asosadia88.github.io/SosaAnnie-CodeQuiz/
 
 The quiz can easily be initialized by clicking the Start Quiz button:
 <img src="assets/images/Start Page.png" alt="Code Quiz Start Page"> 
