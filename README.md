@@ -16,8 +16,14 @@ This site may now be accessed with all its updated features by visiting the hype
 
 <!-- https://asosadia88.github.io/Annielys-Password-Generator/ -->
 
-The quiz can easily be initialized by clicking the Start Quiz button. 
+The quiz can easily be initialized by clicking the Start Quiz button:
+<img src="assets/images/Start Page.png" alt="Code Quiz Start Page"> 
 
+Answer the questions accordingly:
+<img src="assets/images/Quiz Questions.png" alt="Code Quiz Start Page"> 
+
+Obtain and record High Score:
+<img src="assets/images/High Score.png" alt="Code Quiz Start Page"> 
 
 ## Credits
  
