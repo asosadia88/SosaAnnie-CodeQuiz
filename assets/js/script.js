@@ -1,6 +1,6 @@
 var startBtn = document.getElementById("start-btn")
 var introSectionEl = document.getElementById("intro-section")
-
+// set up variables to create basic backbone of code quiz//
 var questionSectionEl = document.getElementById("question-section")
 var initialSectionEl = document.getElementById("initial-section")
 var titleEl = document.getElementById('title')
@@ -12,6 +12,7 @@ var goBackEl = document.getElementById('go-back-bt')
 var choicesEl = document.querySelectorAll(".choices")
 var questionIndex = 0
 var questionsArray = [
+    // area for my quiz questions//
     {
         title: "Commonly used data types DO NOT include:",
         choices: ["A. Strings", "B. Booleans", "C. Alerts", "D. Numbers"],
